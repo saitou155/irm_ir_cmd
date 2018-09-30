@@ -47,7 +47,7 @@ int irm_open()
 	devh = libusb_open_device_with_vid_pid(NULL, VENDOR_ID, PRODUCT_ID);
 	if(!devh)
 	{
-		fprintf(stderr, "ERROR:Can't Open irMagician. %s\n",libusb_error_name(ret));
+		fprintf(stderr, "ERROR:Can't Open irMagician. Device not found.n");
 		return -1;
 	}
 	
@@ -90,7 +90,7 @@ int irm_open()
 	return 0;
 }
 
-int irm_clse()
+int irm_close()
 {
 	int ret = -1;
     if (devh)
@@ -412,7 +412,7 @@ int irm_receive(int varbose)
 	
 	result = 0;
 EXIT_PATH:
-	irm_clse();
+	irm_close();
 	return result;
 }
 
@@ -545,7 +545,7 @@ int irm_transfer(const char* json,int varbose)
 	}
 
 EXIT_PATH:
-	irm_clse();
+	irm_close();
 	return result;
 }
 

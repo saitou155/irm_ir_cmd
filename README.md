@@ -2,7 +2,7 @@
 
 # irm_ir_cmd
 
-Implementation of irMagician command mimicking bto_ir_cmd
+Implementation of irMagician command mimicking bto_ir_cmd.
 
 ## Getting Started
 

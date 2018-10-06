@@ -1,8 +1,6 @@
-<!--
-  Title: Awesome Sysadmin
-  Description: A curated list of amazingly awesome open source sysadmin resources.
-  Author: n1trux
-  -->
+<head>
+<meta name="google-site-verification" content="Itbj7Pl6rXPRDRqpVhgFbV1YXWEwhTPwvodLhGutGDw" />
+</head>
 
 # irm_ir_cmd
 

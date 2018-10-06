@@ -1,6 +1,8 @@
-<head>
-      <meta name="google-site-verification" content="Itbj7Pl6rXPRDRqpVhgFbV1YXWEwhTPwvodLhGutGDw" />
-</head>
+<!--
+  Title: Awesome Sysadmin
+  Description: A curated list of amazingly awesome open source sysadmin resources.
+  Author: n1trux
+  -->
 
 # irm_ir_cmd
 

@@ -1,7 +1,3 @@
-<head>
-<meta name="google-site-verification" content="Itbj7Pl6rXPRDRqpVhgFbV1YXWEwhTPwvodLhGutGDw" />
-</head>
-
 # irm_ir_cmd
 
 Implementation of irMagician command mimicking bto_ir_cmd

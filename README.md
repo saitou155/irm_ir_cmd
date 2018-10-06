@@ -1,3 +1,5 @@
+[_metadata_:tags]:- "markdonw metadata"
+
 # irm_ir_cmd
 
 Implementation of irMagician command mimicking bto_ir_cmd

@@ -219,7 +219,7 @@ int irm_cmd_res2(const char* cmd1,const char* res1,char* data,int size,int verbo
 		fprintf(stderr,"%s",cmd1);
 	}
 
-	sleep(1);
+	usleep(10 * 1000);
 	
 	ret = irm_gets(buf,sizeof(buf));
 	if(ret < 0)
@@ -245,7 +245,7 @@ int irm_cmd_res2(const char* cmd1,const char* res1,char* data,int size,int verbo
 		goto EXIT_PATH;
 	}
 	
-	sleep(3);
+	usleep(3 * 1000 * 1000);
 	
 	ret = irm_gets(data,size);
 	if(ret < 0)
